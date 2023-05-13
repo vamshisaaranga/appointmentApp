@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.appointmentContainer {
+  margin: 30px;
+  border: 1px solid #b5b7c4;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+.appointmentName {
+  font-family: roboto;
+  font-size: 16px;
+  color: #171f46;
+  padding-left: 10px;
+}
+.scheduledDate {
+  font-family: roboto;
+  font-size: 16px;
+  color: #b5b7c4;
+  padding-left: 10px;
+}
+.favouriteImage {
+  margin: 10px;
+  cursor: pointer;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
